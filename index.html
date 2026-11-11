@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Practice Projects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #dce5f2;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 22px rgba(0,0,0,0.13);
+        }
+
+        .day {
+            color: #5267d8;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            min-height: 42px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #5267d8;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background: #3549b5;
+        }
+
+        .coming {
+            background: #999;
+            cursor: not-allowed;
+        }
+
+        footer {
+            text-align: center;
+            background: #141e30;
+            color: white;
+            padding: 22px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Front-End Development Projects</h1>
+        <p>My Daily Practice Projects | HTML | CSS | JavaScript</p>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="card">
+                <div class="day">DAY 01</div>
+                <h3>Day 1 Project</h3>
+                <p>My first front-end practice project.</p>
+                <a href="Day1/day1.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 02</div>
+                <h3>Day 2 Project</h3>
+                <p>My second front-end practice project.</p>
+                <a href="Day2/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 03</div>
+                <h3>Day 3 Project</h3>
+                <p>My third front-end practice project.</p>
+                <a href="Day3/day3.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 04</div>
+                <h3>Day 4 Project</h3>
+                <p>CSS practice project.</p>
+                <a href="Day4-css/day4.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 05</div>
+                <h3>Day 5 Project</h3>
+                <p>My fifth front-end practice project.</p>
+                <a href="Day5/index5.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 06</div>
+                <h3>Day 6 Project</h3>
+                <p>My sixth front-end practice project.</p>
+                <a href="Day6/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 07</div>
+                <h3>Day 7 Project</h3>
+                <p>My seventh front-end practice project.</p>
+                <a href="Day7/day7.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 08</div>
+                <h3>Coming Soon</h3>
+                <p>This project will be added soon.</p>
+                <span class="btn coming">Coming Soon</span>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 09</div>
+                <h3>Day 9 Project</h3>
+                <p>My ninth front-end practice project.</p>
+                <a href="Day9/day9.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 10</div>
+                <h3>Day 10 Project</h3>
+                <p>My tenth front-end practice project.</p>
+                <a href="Day10/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 11</div>
+                <h3>Day 11 Project</h3>
+                <p>My eleventh front-end practice project.</p>
+                <a href="Day11/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 12</div>
+                <h3>Day 12 Project</h3>
+                <p>My twelfth front-end practice project.</p>
+                <a href="Day12/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 13</div>
+                <h3>Day 13 Project</h3>
+                <p>My thirteenth front-end practice project.</p>
+                <a href="Day13/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 14</div>
+                <h3>Day 14 Project</h3>
+                <p>My fourteenth front-end practice project.</p>
+                <a href="Day14/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 15</div>
+                <h3>Day 15 Project</h3>
+                <p>My fifteenth front-end practice project.</p>
+                <a href="Day15/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 16</div>
+                <h3>Day 16 Project</h3>
+                <p>My sixteenth front-end practice project.</p>
+                <a href="Day16/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 17</div>
+                <h3>Day 17 Project</h3>
+                <p>My seventeenth front-end practice project.</p>
+                <a href="Day17/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 18</div>
+                <h3>Day 18 Project</h3>
+                <p>My eighteenth front-end practice project.</p>
+                <a href="Day18/index.html" class="btn">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="day">DAY 19</div>
+                <h3>Day 19 Project</h3>
+                <p>My nineteenth front-end practice project.</p>
+                <a href="Day19/index.html" class="btn">View Project</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Front-End Development Practice | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
